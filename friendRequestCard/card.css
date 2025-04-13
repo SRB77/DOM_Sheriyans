@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.main-card{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border-radius: 20px;
+}
+.main-card img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+.main-card button{
+    height: 40px;
+    width: 170px;
+    background-color: rgb(28, 220, 156);
+    border: none;
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main-card button:active{
+    background-color: rgb(28, 220, 156);
+    transform: scale(0.95);
+    transition: all 0.1s ease-in-out;
+}
+h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
